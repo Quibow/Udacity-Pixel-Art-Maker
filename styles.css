@@ -35,6 +35,10 @@ td {
     width: 20px;
 }
 
+td.transparent{
+    background: transparent;
+}
+
 input[type=number] {
     width: 6em;
 }
