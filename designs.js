@@ -43,6 +43,14 @@ $(function () {
             makeGrid();
         });
 
+
+        // toggle grid color
+        $("#pixel_canvas").on("click", "td", function (e) {
+            let color = colorPicker.val();
+            $(this).css("background-color", color);
+
+        })
+
     });
 
 });
